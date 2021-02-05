@@ -1,0 +1,162 @@
+/* purple = #350b40; darkpink= #ad6c80, lightpink = #ee99a0, light = #EEEEEE */
+
+h1 {
+  text-shadow: 1px 2px 1px #ee99a0;
+  font-family: "Pacifico", cursive;
+  border-bottom: 3px dotted #350b40;
+  width: 300px;
+  color: #350b40;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #94b5c0;
+  box-shadow: -1px 1px 10px 0.1px #698892;
+}
+.homepage-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 40px;
+  height: 200px;
+}
+
+.homepage-form input,
+button {
+  margin: 0;
+}
+
+.homepage-form input:focus,
+button:focus {
+  outline: none;
+}
+
+.homepage-form input {
+  background: #eeeeee;
+  border: 0px;
+  width: 300px;
+  height: 40px;
+  color: #350b40;
+  padding-left: 10px;
+  box-shadow: 0px 0px 6px 0.1px #4d7a80;
+}
+
+.homepage-form button {
+  background: radial-gradient(#ee99a0, #c78297);
+  box-shadow: 0px 0px 5px 0.1px #d6858c;
+  color: #eeeeee;
+  font-size: 2em;
+  border: none;
+  border-radius: 50%;
+  padding: 2px;
+  width: 60px;
+  height: 60px;
+  font-weight: bold;
+  transition: 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.homepage-form button:hover {
+  background: radial-gradient(#c78297, #ee99a0);
+}
+
+.homepage-form button:active {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: 0.1s ease-in-out;
+}
+
+.homepage-form button:disabled {
+  background: radial-gradient(#9da7b8, #9da7b8);
+  cursor: default;
+  box-shadow: none;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  background-color: #9b67a8;
+  align-items: flex-end;
+  width: 600px;
+  box-shadow: -1px 1px 10px 0.1px #5c2a61;
+}
+
+.homepage-table {
+  color: #350b40;
+  border-radius: 2px;
+  width: 555px;
+  padding-bottom: 30px;
+}
+
+.homepage-table p {
+  height: 20px;
+  border-bottom: 1px solid;
+}
+
+.situacao {
+  width: 70px;
+}
+
+.delete {
+  width: 50px;
+}
+
+.trash {
+  cursor: pointer;
+  width: 20px;
+  margin-left: 14px;
+  padding-top: 5px;
+}
+
+.limpar {
+  background: none;
+
+  color: #350b40;
+  border: none;
+  border-bottom: 1px dotted;
+  transition: 0.2s ease;
+  cursor: pointer;
+  margin: 10px 10px 50px 0;
+  font-weight: lighter;
+}
+
+.limpar:hover {
+  background: none;
+  color: #eeeeee;
+  border-bottom: 1px dotted;
+}
+
+.unchecked {
+  width: 20px;
+  cursor: pointer;
+  margin-left: 34px;
+}
+
+.unchecked:hover {
+  background-color: #ebebeb;
+  opacity: 0.3;
+  border-radius: 100%;
+}
+
+.checked {
+  width: 20px;
+  cursor: pointer;
+  margin-left: 34px;
+}
+
+.lista-vazia {
+  color: #eeeeee;
+  border-bottom: 1px dotted;
+  margin-top: 35px;
+}
