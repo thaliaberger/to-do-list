@@ -1,4 +1,4 @@
-<h1 align="center">to-do list</h1>
+<h1 align="center">to-do list  :pencil:</h1>
 
 <div align="center">
    Classic to do list :)
@@ -12,16 +12,16 @@
   </h3>
 </div>
 
-## Overview
+## Overview :eyes:
 
 ![screenshot](https://i.ibb.co/jyxMhfw/todolist.png)
 
-### Built With
+## Built With :hammer:
 
 ![ReactJS](https://img.shields.io/badge/-ReactJS-52b7d3?style=flat&logo=react&logoColor=white)
 
 
-## How To Use
+## How To Use :computer:
 
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
@@ -36,7 +36,7 @@ $ npm install
 $ npm start
 ```
 
-## Contact
+## Contact :mailbox:
 
 <a href="https://www.linkedin.com/in/thaliaberger/" target="_blank">
   <img src="https://img.shields.io/badge/-LinkedIn-2D2D2F?style=flat&logo=linkedin&logoColor=white">
